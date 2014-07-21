@@ -1,0 +1,27 @@
+{
+  "name": "wordpress.net",
+  "version": "0.0.0",
+  "homepage": "https://github.com/robertleeplummerjr/wordpress.net",
+  "authors": [
+    "Robert Plummer <robertleeplummerjr@gmail.com>"
+  ],
+  "description": "wordpress for .net",
+  "keywords": [
+    "wordpress",
+    ".net",
+    "C#"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Phalanger": "https://github.com/DEVSENSE/Phalanger.git",
+    "WordPress": "https://github.com/WordPress/WordPress.git",
+	"PhalangerMySql": "https://github.com/DEVSENSE/PhalangerMySql.git"
+  }
+}
