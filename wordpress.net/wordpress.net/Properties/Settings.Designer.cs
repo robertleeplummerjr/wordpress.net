@@ -25,7 +25,7 @@ namespace wordpress.net.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("database_name_here")]
+        [global::System.Configuration.DefaultSettingValueAttribute("wp")]
         public string DB_NAME {
             get {
                 return ((string)(this["DB_NAME"]));
@@ -34,7 +34,7 @@ namespace wordpress.net.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("username_here")]
+        [global::System.Configuration.DefaultSettingValueAttribute("wp")]
         public string DB_USER {
             get {
                 return ((string)(this["DB_USER"]));
@@ -43,7 +43,7 @@ namespace wordpress.net.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("password_here")]
+        [global::System.Configuration.DefaultSettingValueAttribute("adminuser")]
         public string DB_PASSWORD {
             get {
                 return ((string)(this["DB_PASSWORD"]));
@@ -52,7 +52,7 @@ namespace wordpress.net.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("localhost")]
+        [global::System.Configuration.DefaultSettingValueAttribute("192.168.1.77")]
         public string DB_HOST {
             get {
                 return ((string)(this["DB_HOST"]));
